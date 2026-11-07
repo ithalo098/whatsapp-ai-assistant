@@ -1,3 +1,45 @@
+# WhatsApp AI Assistant
+
+Extensão e painel para WhatsApp Web com integração Gemini e ferramentas de atendimento.
+
+## Estrutura
+
+- [`src/`](./src/)
+- [`public/`](./public/)
+- [`extension/`](./extension/)
+- [`package.json`](./package.json)
+- [`WhatsGemini-Pro.zip`](./WhatsGemini-Pro.zip)
+- [`public/WhatsGemini-Pro.zip`](./public/WhatsGemini-Pro.zip)
+
+## Visão geral
+
+O código e os materiais deste repositório estão organizados para consulta e evolução do projeto. As funcionalidades descritas refletem os arquivos presentes, sem pressupor uma publicação em produção.
+
+## Tecnologias
+
+- @supabase/supabase-js
+- @tanstack/react-router
+- @tanstack/react-start
+- react
+- tailwindcss
+- typescript
+- vite
+
+## Executar localmente
+
+```sh
+git clone https://github.com/ithalo098/whatsapp-ai-assistant.git
+cd whatsapp-ai-assistant
+npm install
+npm run dev
+```
+
+Para gerar a versão de distribuição: `npm run build`.
+
+As integrações externas podem exigir configuração de ambiente e serviços próprios. Configure os valores conforme as integrações do código; não publique credenciais.
+
+## Documentação do projeto
+
 # ✨ WhatsGemini Pro - Auto-Resposta com Inteligência Artificial para WhatsApp Web
 
 Extensão de navegador (Manifest V3) que conecta a **inteligência artificial do Google Gemini (Pro / Flash)** ao seu **WhatsApp Web** para responder contatos e mensagens recebidas de forma 100% automática, natural e inteligente.
@@ -49,4 +91,3 @@ Extensão de navegador (Manifest V3) que conecta a **inteligência artificial do
 2. Clique no ícone da extensão ou no botão flutuante **WhatsGemini** que surge no canto do WhatsApp Web.
 3. Ative a chave **"AUTO-RESPOSTA"**.
 4. Deixe a aba do WhatsApp Web aberta. Qualquer contato que te mandar mensagem receberá respostas inteligentes e personalizadas geradas pelo Gemini Pro!
-
